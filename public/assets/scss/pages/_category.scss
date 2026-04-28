@@ -1,0 +1,49 @@
+.category-info {
+    background: $white;
+    padding: 30px;
+    border-radius: $border-radius;
+    margin: 20px 0;
+
+    h1 {
+        color: $primary-color;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: $gray;
+    }
+}
+
+.sorting {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+
+    a {
+        padding: 10px 20px;
+        background: $white;
+        border-radius: 5px;
+        border: 2px solid #ddd;
+        transition: all 0.3s;
+
+        &.active {
+            background: $primary-color;
+            color: $white;
+            border-color: $primary-color;
+        }
+
+        &:hover {
+            border-color: $primary-color;
+        }
+    }
+}
+
+.articles-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+}
