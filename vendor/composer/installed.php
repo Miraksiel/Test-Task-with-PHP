@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'blog/php-blog',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '0d9ef952b39898721b4fe0d1149065c84edc5e02',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'blog/php-blog' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '0d9ef952b39898721b4fe0d1149065c84edc5e02',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'scssphp/scssphp' => array(
+            'pretty_version' => 'v1.13.0',
+            'version' => '1.13.0.0',
+            'reference' => '63d1157457e5554edf00b0c1fabab4c1511d2520',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../scssphp/scssphp',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'smarty/smarty' => array(
+            'pretty_version' => 'v4.5.6',
+            'version' => '4.5.6.0',
+            'reference' => 'a8d77c86660ca0562ec2fb781fbbda737fb7a62b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../smarty/smarty',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
